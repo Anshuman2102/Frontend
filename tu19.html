@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Width Borders and Backgrounds</title>
+    <style>
+        #firstPara{
+            background-color: red;
+            height:140px  ;
+            width: 500px;
+            border-radius: 13px;
+            border: black solid 5px;
+
+        }
+        #secondPara{
+            background-color: greenyellow;
+            height:140px  ;
+            width: 500px;
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 13px;
+            border-bottom-right-radius: 5px;
+            
+            border-top: solid red 3px;
+            border-right: solid blue 3px;
+            border-left: solid rgb(125, 2, 125) 3px;
+            border-bottom: solid orangered 3px;
+
+        }
+        #thirdPara{
+            background-image: url(https://avatars.githubusercontent.com/u/86787631?v=4);
+            height: 800px;
+            width: 700px;
+            border: solid black;
+            background-repeat: no-repeat;/*repeat-x and repeat-y for a and y axis*/
+            /* background-position: center center; */
+            /* background-position: 140px 20px; */
+            /* background-position: bottom 40px center; */
+            background-position: top 40px center;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is First Heading</h2>
+    <p id="firstPara">This is my First paragraph</p>
+
+    <h2>This is Second Heading</h2>
+    <p id="secondPara">This is my Second paragraph</p>
+    
+    <h2>This is Third Heading</h2>
+    <p id="thirdPara">This is my Third paragraph</p>
+</body>
+</html>
